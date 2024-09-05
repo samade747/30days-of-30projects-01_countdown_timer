@@ -1,16 +1,8 @@
 "use client"; // Enables client-side rendering for this component
 
-
-// Import React hooks and types
-import { useState, useRef, useEffect, ChangeEvent } from "react"; 
-
-// Import custom Input component
-import { Input } from "@/components/ui/input"; 
-
-
-// Import custom Button component
-import { Button } from "@/components/ui/button"; 
-
+import { useState, useRef, useEffect, ChangeEvent } from "react"; // Import React hooks and types
+import { Input } from "@/components/ui/input"; // Import custom Input component
+import { Button } from "@/components/ui/button"; // Import custom Button component
 
 // Default export of the Countdown function component
 export default function Countdown() {
